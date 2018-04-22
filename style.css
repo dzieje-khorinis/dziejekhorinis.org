@@ -1,0 +1,208 @@
+html, body
+{
+    min-height: 100vh;
+}
+
+body
+{
+    height: 200vh;
+}
+
+body
+{
+    background-color: black;
+/*
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-attachment: fixed;
+*/
+    color: white;
+    font-size: 2.0vh;
+    letter-spacing: 0.1em;
+    font-family: 'Lusitana', serif;
+    text-shadow: 
+        0.0em 0.1em 0.1em black,
+        0.1em 0.2em 0.5em black,
+        0.1em 0.2em 0.5em black;
+    margin: 0;
+}
+
+@media (orientation: portrait) 
+{
+    body
+    {
+        background-size: auto 100vh;
+    }
+}
+
+@media (orientation: landscape) 
+{
+    body
+    {
+        background-size: 100vw auto;
+    }
+}
+
+
+body:after
+{
+    content: '';
+    z-index: 998;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-image-source: url(images/border.png);
+    border-image-width: 3em;
+    border-image-slice: 60;
+    border-image-outset: initial;
+    border-image-repeat: repeat;
+    border-style: solid;
+    box-shadow: 
+        0 0 1em black inset,
+        0 0 3em black inset;
+}
+
+a 
+{
+    color: #bca488;
+    text-decoration: inherit;
+}
+
+a:hover
+{
+    color: white;
+}
+
+#logo
+{
+    display: block;
+    margin: 5vh auto;
+/*    min-height: 34vh;*/
+    max-height: 34vh;
+    max-width: 80vw;
+    width: auto;
+    height: auto;
+}
+
+#menu
+{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0.8em 0;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    background: url(images/menu-background.png);
+    text-align: center;
+    font-size: 2.5vh;
+    
+    border-image-source: url(images/border-no-corners.png);
+    border-image-width: 0.2em 0 0.2em 0;
+    border-image-slice: 5;
+    border-image-repeat: repeat;
+    border-style: solid;
+    box-sizing: border-box;
+    
+    box-shadow: 0.1em 0.5em 2em black;
+}
+
+#menu > *
+{
+    z-index: 999;
+}
+
+@media (orientation: landscape) 
+{
+    #menu > *:first-of-type
+    {
+        margin-left: 5vw;
+        margin-left: calc(50vw - 20em);
+    }
+
+    #menu > *:last-of-type
+    {
+        margin-right: 5vw;
+        margin-right: calc(50vw - 20em);
+    }
+}
+
+#menu > #rekrutacja
+{
+    font-weight: bold;
+}
+
+
+@media (orientation: portrait) 
+{
+    #menu
+    {
+        display: block;
+    }
+
+    #menu > *
+    {
+        line-height: 3em;
+        display: inline-block;
+        width: 30vw;
+    }
+}
+
+#content
+{
+    position: absolute;
+    top: 110vh;
+    width: 100%;
+    color: #bca488;
+}
+
+#content > *
+{
+    max-width: 60ch;
+    margin: 3em auto;
+    line-height: 1.6em;
+    background: url(images/menu-background.png);
+    padding: 1.5em 4em;
+    
+    
+    border-image-source: url(images/border-no-corners.png);
+    border-image-width: 0.2em;
+    border-image-slice: 5;
+    border-image-repeat: repeat;
+    border-style: solid;
+    
+    box-shadow: 0.1em 0.5em 2em black;
+}
+
+#team
+{
+    text-align: center;
+}
+
+#team li
+{
+    list-style-type: none;
+}
+
+#team h2 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+#team h3 {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+#team h2:before,
+#team h2:after
+{
+    content: ' - ';
+}
