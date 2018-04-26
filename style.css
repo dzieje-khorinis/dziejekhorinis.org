@@ -89,6 +89,15 @@ a:hover
     max-width: 80vw;
     width: auto;
     height: auto;
+    margin-bottom: 0;
+}
+
+#teaser
+{
+    display: block;
+    height: 20em;
+    width: 60ch;
+    max-width: calc(100vw - 10em) !important;
 }
 
 #menu
