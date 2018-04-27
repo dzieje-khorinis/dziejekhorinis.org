@@ -98,6 +98,7 @@ a:hover
     height: 20em;
     width: 60ch;
     max-width: calc(100vw - 10em) !important;
+    overflow:hidden;
 }
 
 #menu
