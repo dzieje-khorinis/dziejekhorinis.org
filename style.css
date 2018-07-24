@@ -161,9 +161,10 @@ a:hover
 
     #menu > *
     {
-        line-height: 3em;
+        margin: 0.8em 0;
         display: inline-block;
         width: 30vw;
+        max-height: 1em;
     }
 }
 
