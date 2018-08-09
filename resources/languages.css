@@ -38,16 +38,6 @@
     background-image: url(../images/icon-language-en.png);
 }
 
-#languages > #language-sk
-{
-    background-image: url(../images/icon-language-sk.png);
-}
-
-#languages > #language-it
-{
-    background-image: url(../images/icon-language-it.png);
-}
-
 #languages > #language-de
 {
     background-image: url(../images/icon-language-de.png);
@@ -56,6 +46,16 @@
 #languages > #language-ru
 {
     background-image: url(../images/icon-language-ru.png);
+}
+
+#languages > #language-sk
+{
+    background-image: url(../images/icon-language-sk.png);
+}
+
+#languages > #language-it
+{
+    background-image: url(../images/icon-language-it.png);
 }
 
 #languages > #language-cz
