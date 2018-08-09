@@ -58,3 +58,7 @@
     background-image: url(../images/icon-language-ru.png);
 }
 
+#languages > #language-cz
+{
+    background-image: url(../images/icon-language-cz.png);
+}
