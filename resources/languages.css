@@ -67,3 +67,9 @@
 {
     background-image: url(../images/icon-language-es.png);
 }
+
+
+#languages > #language-hu
+{
+    background-image: url(../images/icon-language-hu.png);
+}
