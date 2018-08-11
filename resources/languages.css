@@ -62,3 +62,8 @@
 {
     background-image: url(../images/icon-language-cz.png);
 }
+
+#languages > #language-es
+{
+    background-image: url(../images/icon-language-es.png);
+}
