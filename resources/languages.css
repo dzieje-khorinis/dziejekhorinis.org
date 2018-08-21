@@ -5,7 +5,7 @@
     top: 3vh;
 }
 
-#languages > *
+.languages-row > *
 {
     display: inline-block;
     width: 2em;
@@ -22,54 +22,59 @@
     transition: top 0.3s, opacity 0.3s;
 }
 
-#languages > *:hover
+.languages-row > *:hover
 {
     opacity: 1;
     top: 0em;
 }
 
-#languages > #language-pl
+.languages-row > #language-pl
 {
     background-image: url(../images/icon-language-pl.png);
 }
 
-#languages > #language-en
+.languages-row > #language-en
 {
     background-image: url(../images/icon-language-en.png);
 }
 
-#languages > #language-de
+.languages-row > #language-de
 {
     background-image: url(../images/icon-language-de.png);
 }
 
-#languages > #language-ru
+.languages-row > #language-ru
 {
     background-image: url(../images/icon-language-ru.png);
 }
 
-#languages > #language-sk
-{
-    background-image: url(../images/icon-language-sk.png);
-}
-
-#languages > #language-it
-{
-    background-image: url(../images/icon-language-it.png);
-}
-
-#languages > #language-cz
+.languages-row > #language-cz
 {
     background-image: url(../images/icon-language-cz.png);
 }
 
-#languages > #language-es
+.languages-row > #language-ro
+{
+    background-image: url(../images/icon-language-ro.png);
+}
+
+.languages-row > #language-it
+{
+    background-image: url(../images/icon-language-it.png);
+}
+
+.languages-row > #language-es
 {
     background-image: url(../images/icon-language-es.png);
 }
 
-
-#languages > #language-hu
+.languages-row > #language-hu
 {
     background-image: url(../images/icon-language-hu.png);
 }
+
+.languages-row > #language-sk
+{
+    background-image: url(../images/icon-language-sk.png);
+}
+
