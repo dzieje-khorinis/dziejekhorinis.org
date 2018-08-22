@@ -168,6 +168,20 @@ a:hover
     }
 }
 
+#contact
+{
+    position: absolute;
+    top: 11.5vh;
+    right: 5vh;
+    width: 100%;
+    text-align: right;
+}
+
+#contact > a
+{
+    font-size: 1.3vh;
+}
+
 #content
 {
     position: absolute;
