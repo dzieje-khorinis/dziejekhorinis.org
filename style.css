@@ -170,11 +170,8 @@ a:hover
 
 #contact
 {
-    position: absolute;
-    top: 11.5vh;
-    right: 5vh;
-    width: 100%;
-    text-align: right;
+    position: relative;
+    text-align: center;
 }
 
 #contact > a
