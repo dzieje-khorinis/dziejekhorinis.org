@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://historyofkhorinis.org/sitemap.xml
-Host: https://historyofkhorinis.org
+Sitemap: https://dziejekhorinis.org/sitemap.xml
+Host: https://dziejekhorinis.org
