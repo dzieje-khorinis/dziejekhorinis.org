@@ -1,0 +1,82 @@
+/* CSS Document */
+
+/* slideout */
+#slideout {
+    position: fixed;
+    top: 0;
+    left: 80%;
+	color: #FFF;
+	display: block;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+	z-index: 9999;
+	overflow: hidden;
+}
+
+#slideout_inner {
+    position: fixed;
+	top: -12rem;
+	left: 80%;
+	width: 14%;
+	height: auto;
+	background: rgba(0,0,0,0.6);
+	display: block;
+	text-align: center;
+	padding: 4% 0.5% 0.5% 0.5%;
+    border-radius: 0 0 1rem 1rem;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#slideout:hover {
+    top: 11rem;
+	left: 80%;
+	color: #FFF;
+	border-bottom: #F00 5px inset;
+}
+
+#slideout:hover #slideout_inner {
+    top: 0rem;
+	left: 80%;
+}
+
+.lang-button {
+	display: inline-block;
+	text-align: center;
+	font-size: 1.1rem;
+	padding: 1.25rem 1rem 0.25rem 1rem;
+	text-shadow: 2px 2px 4px #000;
+}
+
+.slider-flag {
+	width: 16%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	border-radius: 100%;
+	padding: 1%;
+
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-ms-trasition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;	format */
+}
+
+.slider-flag:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+@media screen and (max-width: 1024px) {
+	#slideout { display: none; }
+}
+

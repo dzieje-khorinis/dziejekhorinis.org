@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://historyofkhorinis.org/sitemap.xml
+Host: https://historyofkhorinis.org

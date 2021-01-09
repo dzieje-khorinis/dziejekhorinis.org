@@ -1,0 +1,153 @@
+/* CSS Document */
+
+/* additives */
+.shadowed {
+    -webkit-filter: drop-shadow(0.2rem 0.2rem 0.2rem #000);
+     filter: drop-shadow(0.3rem 0.2rem 0.2rem #000);
+}
+
+/* transit */
+.transit {
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-ms-trasition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;	format */
+}
+
+.transit-2s {
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out;
+	-ms-trasition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;	format */
+}
+
+.transit-05s {
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-trasition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;	format */
+}
+
+/* text-shadow */
+.txt-shadow {
+	text-shadow: 2px 2px 4px #000;
+}
+
+/* grayscale */
+.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/* opacity */
+:not(.html) .opacity {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* shadow */
+.shadow-in {
+	-webkit-box-shadow: inset 0 2rem 2rem -2rem rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 2rem 2rem -2rem rgba(0,0,0,0.8);
+     box-shadow: inset 0 2rem 2rem -2rem rgba(0,0,0,0.8);
+}
+
+.shadow-out {
+	-webkit-box-shadow: 0 1rem 1rem -1rem rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 1rem 1rem -1rem rgba(0,0,0,0.8);
+     box-shadow: 0 1rem 1rem -1rem rgba(0,0,0,0.8);
+}
+
+.shadow-out-2 {
+	-webkit-box-shadow: 0 2rem 2rem -2rem rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 2rem 2rem -2rem rgba(0,0,0,0.8);
+     box-shadow: 0 2rem 2rem -2rem rgba(0,0,0,0.8);
+}
+
+.pix-shadow: {
+	-webkit-filter: drop-shadow(0.1rem 0.1rem 0.1rem #000);
+            filter: drop-shadow(0.1rem 0.1rem 0.1rem #000);
+}
+
+/* fadein */
+.fadein {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* shake */
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 0.2s;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes shake {
+  	  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	 10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	 20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	 30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	 40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	 50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	 60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	 70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	 80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	 90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* preloader */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff; /* change if the mask should have another color then white */
+	z-index: 9999; /* makes sure it stays on top */
+}
+
+#status {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%; /* centers the loading animation horizontally one the screen */
+	top: 50%; /* centers the loading animation vertically one the screen */
+	background-image: url(../index_files/status.gif); /* path to your loading animation */
+	background-repeat: no-repeat;
+	background-position: center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
