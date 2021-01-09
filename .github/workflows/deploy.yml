@@ -19,6 +19,10 @@ jobs:
     - name: Build website
       run: |
         yarn build
+      env:
+        POLISH_URL: ${{ secrets.POLISH_URL }}
+        INTERN_URL: ${{ secrets.INTERN_URL }}
+        LANG_VERSION: ${{ secrets.LANG_VERSION }}
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
