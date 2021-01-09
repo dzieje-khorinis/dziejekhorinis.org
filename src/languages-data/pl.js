@@ -181,7 +181,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy będziemy mogli odwiedzić znane nam tereny z Gothic 1 lub Gothic 2? </a>
+        <a class="cd-faq-trigger" href="#0">Czy będziemy mogli odwiedzić znane nam tereny z Gothic lub Gothic II? </a>
         <div class="cd-faq-content">
           <p>Taka możliwość pojawi się w drugiej części modyfikacji Dzieje Khorinis – rozgrywającej się już bezpośrednio na wyspie Khorinis.</p>
         </div>
@@ -205,7 +205,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy spotkamy postacie znane z Gothic 1 i Gothic 2 na Vaduz? </a>
+        <a class="cd-faq-trigger" href="#0">Czy spotkamy postacie znane z Gothic i Gothic II na Vaduz? </a>
         <div class="cd-faq-content">
           <p>Tak, ale poza 12 magami, będą to tylko 2 inne osoby.</p>
         </div>
@@ -329,7 +329,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Jaki jest planowany czas rozgrywki?</a>
         <div class="cd-faq-content">
-          <p>Na chwilę obecną nie da się podać takiej wartości, będzie to możliwe dopiero po przeprowadzeniu dokładnych testów. Nie mniej planujemy, aby trwała podobną ilość czasu jak historia zawarta w oryginalnym Gothic 2 z dodatkiem Noc Kruka.</p>
+          <p>Na chwilę obecną nie da się podać takiej wartości, będzie to możliwe dopiero po przeprowadzeniu dokładnych testów. Nie mniej planujemy, aby trwała podobną ilość czasu jak historia zawarta w oryginalnym Gothic II z dodatkiem Noc Kruka.</p>
         </div>
       </li>
       <li>
@@ -365,7 +365,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy będzie więcej broni?</a>
         <div class="cd-faq-content">
-          <p>Tak, gracz będzie miał do wyboru więcej broni niż w Gothic i Gothic 2: Noc Kruka.</p>
+          <p>Tak, gracz będzie miał do wyboru więcej broni niż w Gothic i Gothic II: Noc Kruka.</p>
         </div>
       </li>
       <li>
@@ -497,7 +497,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy w modyfikacji pojawi się muzyczny easter egg (jak np. występ In Extremo w Gothic 1)?</a>
+        <a class="cd-faq-trigger" href="#0">Czy w modyfikacji pojawi się muzyczny easter egg (jak np. występ In Extremo z pierwszej części gry)?</a>
         <div class="cd-faq-content">
           <p>Nie pojawi się występ In Extremo, ale przygotowujemy kilka innych muzycznych easter eggów. </p>
         </div>
