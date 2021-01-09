@@ -64,7 +64,7 @@ To know more about the project, check out the videos below.
   </div>
   </li>
 <li>
-<a class="cd-faq-trigger" href="#0">Na jakim etapie znajduje się obecnie produkcja? </a>
+<a class="cd-faq-trigger" href="#0">At what local level is production currently taking place? </a>
 <div class="cd-faq-content">
 <p>Details of our progress are presented in the last summary of the work, you can watch it here:</p>
 <div class="video-wrapper">
