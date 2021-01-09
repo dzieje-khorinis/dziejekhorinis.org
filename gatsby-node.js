@@ -47,7 +47,7 @@ exports.createPages = async ({ graphql, actions, boundActionCreators }) => {
       })
     });
 
-    const languages = [plLang, deLang, ruLang, czLang, roLang, itLang, esLang, huLang, skLang];
+    const languages = [deLang, ruLang, czLang, roLang, itLang, esLang, huLang, skLang];
 
     languages.forEach(lang => {
       pages.forEach(page => {
