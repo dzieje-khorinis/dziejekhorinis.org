@@ -1,0 +1,18 @@
+name: Sync
+on:
+  workflow_dispatch: # on button click
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    if: github.repository == 'dzieje-khorinis/historyofkhorinis.org'
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+    - name: Sync repo to branch
+      uses: repo-sync/github-sync@v2
+      with:
+        source_repo: https://github.com/dzieje-khorinis/dziejekhorinis.org.git
+        source_branch: master
+        destination_branch: master
+        github_token: ${{ secrets.PAT }}
