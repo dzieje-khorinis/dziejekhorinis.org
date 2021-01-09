@@ -1,0 +1,48 @@
+.recruitment-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 1.2;
+
+  h3 {
+    padding-bottom: 0;
+  }
+
+  ul {
+    list-style: inside;
+    line-height: 1.4;
+  }
+
+  .content {
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    border-radius: 1rem;
+    padding: 30px;
+
+    .department-container {
+      display: grid;
+      grid-template-columns: max-content max-content max-content max-content max-content max-content;
+      gap: 10px 10px;
+      margin: 0 -10px;
+
+      @media (max-width: 1080px) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 10px;
+      }
+
+      .item {
+        cursor: pointer;
+        padding: 10px;
+        width: max-content;
+
+        &:hover:not(.nice-bgr) {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

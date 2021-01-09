@@ -1,0 +1,97 @@
+/* CSS Document */
+
+
+/* body */
+body {
+	margin: 0 auto;
+	background: #000;
+	box-sizing: border-box;
+}
+
+body,td,th {
+	font-size: 16px 1rem;
+}
+
+/* lists */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+/* links */
+a:link {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover, a:active, a:focus, a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* format */
+.fullframe {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.frame {
+	height: auto;
+	display: inline-block;
+}
+
+.borderline {
+	width: 100%;
+	height: 10px;
+	display: flex;
+	background: url(../index-files/borderline.png);
+	background-repeat: repeat-x;
+}
+
+/* footer */
+#footer {
+	padding: 2rem 0 2rem 0;
+
+	background-image: url(../index-files/g2_dk_artwork_4.jpg);
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center bottom;
+	background-clip: border-box;
+}
+
+#footer .frame {
+	width: 100%;
+}
+
+.foot-icons {
+	width: 4%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	padding: 0.4rem;
+	opacity: 1;
+	transform: scale(1.02);
+}
+
+.foot-icons:hover {
+	transform: scale(1.2);
+}
+
+.footer-logo {
+	width: 27%;
+	height: auto;
+	display: inline-block;
+	padding: 1rem;
+}
+
+.id-txt {
+	color: #8e8574;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.9rem;
+	padding: 0.1rem;
+}
