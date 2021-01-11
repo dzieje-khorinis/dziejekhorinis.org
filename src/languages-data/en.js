@@ -53,7 +53,7 @@ Only events and characters from the following games are considered canonical: Go
 <br/>
 To know more about the project, check out the videos below.
 </p>
-<iframe style="width: 48%; height: 250px;" src="https://www.youtube.com/embed/pvtqCPs2MMU" frameborder="0" allowfullscreen=""></iframe>
+<iframe style="width: 48%; height: 250px;" src="https://www.youtube.com/embed/zWJrjLYel-k" frameborder="0" allowfullscreen=""></iframe>
 <iframe style="width: 48%; height: 250px;" src="https://www.youtube.com/embed/vnoVmUTamXM" frameborder="0" allowfullscreen=""></iframe>
 </div>
 </li>

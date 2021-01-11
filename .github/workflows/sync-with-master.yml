@@ -1,6 +1,8 @@
 name: Sync
 on:
-  workflow_dispatch: # on button click
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
