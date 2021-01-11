@@ -3,4 +3,5 @@
 <url> <loc>https://dziejekhorinis.org/faq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dziejekhorinis.org/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dziejekhorinis.org/recruitment</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dziejekhorinis.org/praca/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

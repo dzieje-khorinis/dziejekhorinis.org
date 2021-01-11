@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{KKbG:function(n,e,t){"use strict";t.r(e);var c=t("q1tI"),i=t.n(c);e.default=function(){return Object(c.useEffect)((function(){window.location.href="/recruitment"}),[]),i.a.createElement("div",null)}}}]);
+//# sourceMappingURL=component---src-pages-praca-js-60ddb8d2c7f59cab74a9.js.map
