@@ -308,12 +308,6 @@ To know more about the project, check out the videos below.
 </div>
 </li>
 <li>
-<a class="cd-faq-trigger" href="#0">Where will the mod action start?</a>
-<div class="cd-faq-content">
-<p>The action of the modification will start near the village where the main character lives.</p>
-</div>
-</li>
-<li>
 <a class="cd-faq-trigger" href="#0">What is the planned playing time?</a>
 <div class="cd-faq-content">
 <p>At the moment, it is not possible to provide such a value, it will be possible only after thorough testing. Nevertheless, we plan that it will last a similar amount of time as the story in the original Gothic II with the Night of the Raven expansion.</p>
@@ -434,18 +428,6 @@ To know more about the project, check out the videos below.
 </div>
 </li>
 <li>
-<a class="cd-faq-trigger" href="#0">Will there be a love thread?</a>
-<div class="cd-faq-content">
-<p>This thread will not appear, but the hero will be able to visit the brothel.</p>
-</div>
-</li>
-<li>
-<a class="cd-faq-trigger" href="#0">Will Seekers appear in fashion? </a>
-<div class="cd-faq-content">
-<p>Seekers did not enter the world of Gothic until the magical barrier was destroyed, and therefore they would not be in the History of Khorinis.</p>
-</div>
-</li>
-<li>
 <a class="cd-faq-trigger" href="#0">Will there be horse riding?</a>
 <div class="cd-faq-content">
 <p>There will be no such possibility.</p>
@@ -484,12 +466,6 @@ To know more about the project, check out the videos below.
 </div>
 </li>
 <li>
-<a class="cd-faq-trigger" href="#0">Will the General Lee storyline appear in the game?</a>
-<div class="cd-faq-content">
-<p>There will be no plot dedicated to the general in the game, as Lee was thrown into the Valley of Mines after the creation of the magic barrier (so during the History of Khorinis he is still at the royal court).</p>
-</div>
-</li>
-<li>
 <a class="cd-faq-trigger" href="#0">Are there any curses in the History of Khorinis?</a>
 <div class="cd-faq-content">
 <p>We make every effort to ensure that the atmosphere of the History of Khorinis brings to mind the original Gothic game - that's why there will be curses, but limited only to those from the original series.. </p>
@@ -508,7 +484,7 @@ To know more about the project, check out the videos below.
 </div>
 </li>
 <li>
-<a class="cd-faq-trigger" href="#0">Will there be legendary lyrics like "Say ,is that a face u have in front of ur head or is it a butt?"</a>
+<a class="cd-faq-trigger" href="#0">Will there be legendary lyrics like "Say, is that a face you have at the front of your head, or is it a butt?"</a>
 <div class="cd-faq-content">
 <p>Yes, but there will only be a few such references.</p>
 </div>
