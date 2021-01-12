@@ -454,7 +454,7 @@ To know more about the project, check out the videos below.
 </div>
 </li>
 <li>
-<a class="cd-faq-trigger" href="#0">Will there be focus stones in fashion?</a>
+<a class="cd-faq-trigger" href="#0">Will there be focus stones in modification?</a>
 <div class="cd-faq-content">
 <p>Yes, but we don't want to reveal any details about it.</p>
 </div>
