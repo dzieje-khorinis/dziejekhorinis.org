@@ -88,7 +88,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy modyfikacja będzie utrzymywana po wydaniu?</a>
+        <a class="cd-faq-trigger" href="#0">Czy modyfikacja będzie wspierana po wydaniu?</a>
         <div class="cd-faq-content">
           <p>Tak, modyfikacja będzie wspierana tak długo, jak długo będzie to niezbędne.</p>
         </div>
