@@ -4,7 +4,7 @@ const langItems = require('./langItems');
 module.exports = {
   lang,
   logo: '/index-files/logo-cz.png',
-  introText: `"Myrtana, ostrov Vaduz, nedlouho\n předtím
+  introText: `"Myrtana, ostrov Vaduz, nedlouho\n před
 vytvoření magické bariéry..."`,
   teamSoulfireLabel: 'Tým SoulFire',
   homepageDescription: `

@@ -24,6 +24,8 @@ export default function HTML(props) {
       <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=block" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&display=block"
             rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=block"
+            rel="stylesheet" />
 
       <link href="/css-files/dk-form-styles.css" rel="stylesheet" type="text/css" />
       <link href="/css-files/dk-home-styler.css" rel="stylesheet" type="text/css" />

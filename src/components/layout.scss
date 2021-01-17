@@ -21,9 +21,17 @@ html {
 body {
   margin: 0;
   word-wrap: break-word;
-  font-family: 'Cuprum', sans-serif;
   overflow-x: hidden;
 }
+
+html:not(.cz) body {
+  font-family: 'Cuprum', sans-serif;
+}
+
+html.cz body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 
 .container {
   width: auto;
