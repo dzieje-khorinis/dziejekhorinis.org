@@ -127,6 +127,19 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
   </ul>
   `
   }, {
+    slug: 'copywriter',
+    name: 'Copywriter',
+    requirements: `
+    <h4 class='navtext'>Wymagane umiejętności dla Copywriter'a:</h4>
+    <ul>
+      <li>umiejętność długotrwałego skupienia</li>
+      <li>poprawność językowa</li>
+      <li>logiczne myślenie</li>
+      <li>czytanie ze zrozumieniem</li>
+      <li>motywacja i chęci do pracy</li>
+    </ul>
+    `,
+  }, {
     slug: 'other',
     name: lang === 'pl' ? 'Inne' : 'Other',
     requirements: lang === 'pl' ? `
@@ -134,7 +147,13 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
   ` : `
   <p>Do you have an idea to take part in modification development in unique way? Describe it shortly below and optionally in direct conversation on (<a href="https://www.facebook.com/dziejekhorinis">facebook.com/dziejekhorinis</a>).</p>
   `
-  }];
+  }].filter((i) => {
+    if (lang === 'pl') {
+      return true;
+    }
+
+    return i.slug !== 'copywriter';
+  });
 
   useEffect(() => {
     (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })();
