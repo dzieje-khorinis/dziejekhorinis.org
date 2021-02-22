@@ -152,7 +152,7 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
       return true;
     }
 
-    return i.slug !== 'copywriter';
+    return i.slug !== 'copywriter' && i.slug !== 'story';
   });
 
   useEffect(() => {
