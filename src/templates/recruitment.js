@@ -11,7 +11,6 @@ import useIntroArtwork from "../hooks/useIntroArtwork"
 const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle, footerBottomTitle, videoProductionHeadline, header, seo }}) => {
   const footerImages = useFooterImages();
   const artwork = useIntroArtwork();
-  const [active, setActive] = useState('story');
   const departments = [{
     slug: 'story',
     name: lang === 'pl' ? 'Scenarzysta' : 'Screenwriter',
@@ -154,6 +153,8 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
 
     return i.slug !== 'copywriter' && i.slug !== 'story';
   });
+  const [active, setActive] = useState(departments[0].slug);
+
 
   useEffect(() => {
     (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })();
