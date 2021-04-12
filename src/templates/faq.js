@@ -24,8 +24,8 @@ const Faq = ({pathContext: { logo, footerTitle, footerBottomTitle, videoProducti
         <script src={'/js/jquery.mobile.custom.min.js'} type="text/javascript" />
         <script src={'/js/main.js'} type="text/javascript" />
       </Helmet>
-      <SEO image={`${seo.domain}/index-files/g2_dk_artwork_3.jpg`} lang={seo.lang} title="FAQ" description={seo.description}/>
-      <IntroSection artwork={artwork} imageSRC={logo} text={"FAQ"} big={true} />
+      <SEO image={`${seo.domain}/index-files/g2_dk_artwork_3.jpg`} lang={seo.lang} title={lang === 'ru' ? 'ЧАВО' : 'FAQ'} description={seo.description}/>
+      <IntroSection artwork={artwork} imageSRC={logo} text={lang === 'ru' ? 'ЧАВО' : 'FAQ'} big={true} />
       <div className="borderline" />
       <div className={'cd-faq-wrapper'} id='videocont'>
         <div className={'container'} dangerouslySetInnerHTML={{__html: faqContent}} />

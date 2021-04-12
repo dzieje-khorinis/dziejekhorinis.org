@@ -509,12 +509,6 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy NPC będą reagować na gracza wyciągającego broń? </a>
-        <div class="cd-faq-content">
-          <p>Oczywiście. Ten system będzie identyczny jak w oryginalnych Gothicach.</p>
-        </div>
-      </li>
-      <li>
         <a class="cd-faq-trigger" href="#0">Czy pojawią się trialogi (rozmowy więcej niż dwóch postaci)?</a>
         <div class="cd-faq-content">
           <p>Tak, pojawią się sytuacje, w których będą ze sobą rozmawiać więcej niż dwie postacie.</p>
