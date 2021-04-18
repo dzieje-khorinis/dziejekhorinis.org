@@ -573,7 +573,7 @@ To know more about the project, check out the videos below.
 </section>`,
   videoProductionHeadline: "Our video production",
   footerTitle: `Website developed by SoulFire Team. ©${new Date().getFullYear()} SoulFire. All rights reserved.`,
-  footerBottomTitle: "All material published or referenced herein is the propertie of SoulFire Team.",
+  footerBottomTitle: "All material published or referenced herein is the property of SoulFire Team.",
   directorChiefLabel: "director",
   programmingChiefLabel: "programming",
   gameplayChiefLabel: "gameplay scripting",
