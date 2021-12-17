@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { get } from 'lodash';
 
+
 export default function HTML(props) {
   const isPolish =  get(process, 'env.LANG_VERSION') === "pl"
   return (
