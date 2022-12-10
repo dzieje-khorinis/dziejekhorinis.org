@@ -15,8 +15,8 @@ const NotFoundPage = () => {
       <Layout>
           <SEO title="404 - Not Found" />
           <IntroSection artwork={artwork} text={'404'} big={true} />
-          {/* <div className="borderline" />
-          <Videos images={footerImages} /> */}
+          <div className="borderline" />
+          <Videos images={footerImages} />
           <div className="borderline" />
           <Footer />
       </Layout>
