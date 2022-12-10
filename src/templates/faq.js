@@ -30,8 +30,8 @@ const Faq = ({pathContext: { logo, footerTitle, footerBottomTitle, videoProducti
       <div className={'cd-faq-wrapper'} id='videocont'>
         <div className={'container'} dangerouslySetInnerHTML={{__html: faqContent}} />
       </div>
-      <div className="borderline" />
-      <Videos images={footerImages} title={videoProductionHeadline} lang={lang} />
+      {/* <div className="borderline" />
+      <Videos images={footerImages} title={videoProductionHeadline} lang={lang} /> */}
       <div className="borderline"></div>
       <Footer logo={logo} title={footerTitle} bottomTitle={footerBottomTitle} lang={lang} />
     </Layout>

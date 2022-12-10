@@ -39,8 +39,8 @@ const IndexPage = ({pathContext: { introText, lang, logo, homepageDescription, f
         </div>
       </div>
 
-      <div className="borderline" />
-      <Videos images={footerImages} title={videoProductionHeadline} lang={lang} />
+      {/* <div className="borderline" />
+      <Videos images={footerImages} title={videoProductionHeadline} lang={lang} /> */}
       <div className="borderline"></div>
       <Footer logo={logo} title={footerTitle} bottomTitle={footerBottomTitle} lang={lang}/>
     </Layout>
