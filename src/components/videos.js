@@ -52,24 +52,7 @@ const Videos = ({title, lang, images}) => {
           phrases={phrases}
           backgroundColor={`rgb(0 0 0 / 90%)`}
         />
-        <div className={'video-and-media-grid'}>
-          {VideoURLs.map(url => (
-            <div className={'item video'}>
-              <div className={'item-wrapper'}>
-                <div className={'item-container'}>
-                  <iframe className="shadow-out-2" src={url} frameBorder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen />
-                </div>
-              </div>
-            </div>
-          ))}
-          {images.map((image, index) => (
-            <div className={'item'} onClick={() => onPhotoClick(index)}>
-              <div className={'item-wrapper'}>
-                <div className={'item-container'} style={{backgroundImage: `url(${image.preview.srcWebp})`}} />
-              </div>
-            </div>
-          ))}
-        </div>
+   
 
         {/*<div className="videosContainer shadowed transit">*/}
         {/*  <div className="videoWrapper">*/}
