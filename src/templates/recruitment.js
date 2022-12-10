@@ -189,8 +189,8 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
           </div>
         </div>
       </div>
-      <div className="borderline" />
-      <Videos images={footerImages} title={videoProductionHeadline} lang={lang} />
+      {/* <div className="borderline" />
+      <Videos images={footerImages} title={videoProductionHeadline} lang={lang} /> */}
       <div className="borderline"></div>
       <Footer logo={logo} title={footerTitle} bottomTitle={footerBottomTitle} lang={lang} />
     </Layout>
