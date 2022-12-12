@@ -53,7 +53,7 @@ const Videos = ({title, lang, images}) => {
           backgroundColor={`rgb(0 0 0 / 90%)`}
         />
         <div className={'video-and-media-grid'}>
-          {VideoURLs.map(url => (
+          {/* {VideoURLs.map(url => (
             <div className={'item video'}>
               <div className={'item-wrapper'}>
                 <div className={'item-container'}>
@@ -61,7 +61,7 @@ const Videos = ({title, lang, images}) => {
                 </div>
               </div>
             </div>
-          ))}
+          ))} */}
           {images.map((image, index) => (
             <div className={'item'} onClick={() => onPhotoClick(index)}>
               <div className={'item-wrapper'}>
