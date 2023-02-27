@@ -436,12 +436,6 @@ To know more about the project, check out the videos below.
 </ul>
 <ul id="other" class="cd-faq-group"> <li class="cd-faq-title"><h2>Others </h2></li>
 <li>
-<a class="cd-faq-trigger" href="#0">Can we expect a lot of easter eggs? </a>
-<div class="cd-faq-content">
-<p>Easter eggs will appear, but their number will not be exaggerated - so as not to overwhelm (and not spoil!) the gameplay and the plot.</p>
-</div>
-</li>
-<li>
 <a class="cd-faq-trigger" href="#0">Will there be easter eggs related to future events in Gothic?</a>
 <div class="cd-faq-content">
 <p>There will be only single such references.</p>
