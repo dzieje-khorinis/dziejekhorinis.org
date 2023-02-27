@@ -425,12 +425,6 @@ module.exports = {
     </ul>
     <ul id="other" class="cd-faq-group"> <li class="cd-faq-title"><h2>Pozostałe </h2></li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy możemy spodziewać się dużej ilości easter eggów? </a>
-        <div class="cd-faq-content">
-          <p>Easter eggi się pojawią, natomiast ich ilość nie będzie przesadzona - tak aby nie przytłoczyć (i nie zepsuć!) rozgrywki oraz fabuły.</p>
-        </div>
-      </li>
-      <li>
         <a class="cd-faq-trigger" href="#0">Czy w grze będą easter eggi nawiązujące do przyszłych wydarzeń z Gothica?</a>
         <div class="cd-faq-content">
           <p>Pojawią się tylko pojedyncze takie nawiązania.</p>
