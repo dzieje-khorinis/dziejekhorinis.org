@@ -311,7 +311,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy fabuła będzie podzielona na rozdziały?</a>
         <div class="cd-faq-content">
-          <p>Tak, gra będzie podzielona na rozdziały (akty), choć będą one funkcjonować na nieco innych zasadach niż te, które znamy z pozostałych części serii. Na przykład - przy zmianie aktu zabite potwory nie powrócą do życia.</p>
+          <p>Tak, modyfikacja będzie podzielona na sześć rozdziałów.</p>
         </div>
       </li>
       <li>
