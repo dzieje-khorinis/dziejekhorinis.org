@@ -41,7 +41,7 @@ module.exports = {
         <div class="cd-faq-content" style="display: block;">
           <p>Dzieje Khorinis to PREQUEL gry Gothic, którego akcja rozgrywa się na ponad 10 lat przed wydarzeniami z pierwszej części gry i PRZED powstaniem magicznej bariery.
 <br/><br/>
-            Całe przedsięwzięcie ma charakter NON-PROFIT – cechując się ogromną dbałością o zgodność z fabułą sagi gier Gothic i Gothic II Noc Kruka oraz dużym przywiązaniem do szczegółów.
+            Całe przedsięwzięcie ma charakter NON-PROFIT – cechujące się ogromną dbałością o zgodność z fabułą sagi gier Gothic i Gothic II Noc Kruka oraz dużym przywiązaniem do szczegółów.
 <br/><br/>
             Podczas tworzenia Dziejów nie bierzemy pod uwagę gry Gothic 3, będącej trzecią odsłoną serii.
             <br/><br/>
@@ -94,15 +94,15 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy będzie opcja gry multiplayer w Dziejach Khorinis?</a>
+        <a class="cd-faq-trigger" href="#0">Czy będzie opcja gry wieloosobowej w Dziejach Khorinis?</a>
         <div class="cd-faq-content">
-          <p>Nie będzie takiej możliwości, ponieważ charakter projektu ukierunkowany jest tylko i wyłącznie na tryb single-player.>
+          <p>Nie będzie takiej możliwości, ponieważ charakter projektu ukierunkowany jest tylko i wyłącznie na tryb pojedynczego gracza.
         </div>
       </li>
       <li>
         <a class="cd-faq-trigger" href="#0">W jaki sposób będzie przebiegać instalacja modyfikacji?</a>
         <div class="cd-faq-content">
-          <p>Do modyfikacji zostanie wypuszczony dedykowany launcher, który sam zainstaluje modyfikację. Będzie jednak istniała również możliwość manualnego zainstalowania modyfikacji - w szczególności dla systemów Windows w wersji starszej niż Windows 7. </p>
+          <p>Dla osób korzystających z wersji pudełkowej przygotujemy dedykowany launcher, który zainstaluje modyfikację w prawidłowy sposób, a także będzie wspierał dalsze aktualizacje. Oprócz tego modyfikacja będzie również dostępna w serwisie Steam.</p>
         </div>
       </li>
       <li>
@@ -115,7 +115,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy w grze pojawi się profesjonalny dubbing? </a>
         <div class="cd-faq-content">
-          <p>Tak, usłyszymy aktorów głosowych znanych z Gothic i Gothic II: Noc Kruka. </p>
+          <p>Tak, usłyszymy aktorów głosowych znanych z m.in. Gothic i Gothic II: Noc Kruka oraz innych gier.</p>
         </div>
       </li>
       <li>
@@ -145,19 +145,13 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">W ilu językach będzie wydana modyfikacja?</a>
         <div class="cd-faq-content">
-          <p>Na początku modyfikacja będzie wydana w języku polskim, następnie w języku angielskim (na przełomie kilku miesięcy od polskiej premiery). Z kolei na podstawie wersji angielskiej powstaną inne tłumaczenia (czeskie, włoskie, niemieckie i rosyjskie).</p>
+          <p>Na początku modyfikacja będzie wydana w języku polskim i angielskim (z pełną lokalizacją) oraz niemieckim i rosyjskim (napisy). Z kolei na podstawie wersji angielskiej powstaną po premierze inne tłumaczenia (m.in. włoskie czy czeskie).</p>
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy mogę zagrać także na Steamie/GOG-u?</a>
+        <a class="cd-faq-trigger" href="#0">Czy będzie można zagrać także na Steamie/GOG-u?</a>
         <div class="cd-faq-content">
-          <p>Tak. Każda wersja Gothica, włącznie z tą ze Steama/GOGa, będzie obsługiwana przez modyfikację – jednakże (ze względu na lepszą stabilność) rekomendujemy wersję z GOG.com.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy konsola kodów będzie zablokowana?</a>
-        <div class="cd-faq-content">
-          <p>Kody będą zablokowane przez około pierwszy miesiąc po premierze produkcji – przywrócimy ją natomiast w jednym z pierwszych popremierowych patchy. </p>
+          <p>Tak. Każda wersja Gothica, włącznie z tą ze Steama/GOGa, będzie obsługiwana przez modyfikację.</p>
         </div>
       </li>
     </ul>
@@ -211,7 +205,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy pojawia się olbrzymie stwory takie jak czarny troll czy smoki?</a>
+        <a class="cd-faq-trigger" href="#0">Czy pojawią się olbrzymie stwory takie jak czarny troll czy smoki?</a>
         <div class="cd-faq-content">
           <p>Na pewno pojawią się trolle, nie planujemy jednak takich stworów jak smoki lub czarne trolle.</p>
         </div>
@@ -285,7 +279,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Dlaczego nie możemy zostać magiem?</a>
+        <a class="cd-faq-trigger" href="#0">Dlaczego nie będziem można zostać magiem?</a>
         <div class="cd-faq-content">
           <p>Lars jest zwykłym człowiekiem, a nie wybrańcem bogów jak Bezimienny, więc opanowanie przez niego sztuk magicznych trwałoby o wiele dłużej. Drugi powód to fakt, że możliwość zostania magiem kłóciłaby się z koncepcją fabuły Dziejów Khorinis.</p>
         </div>
@@ -323,7 +317,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy system walki ulegnie zmianie?</a>
         <div class="cd-faq-content">
-          <p>Nie, nie wprowadzamy zmian w mechanice walki względem oryginalnego Gothic II.</p>
+          <p>Wprowadzamy kilka subtelnych rzeczy związanych z mechaniką walki, ale nie będą one rewolucyjne.</p>
         </div>
       </li>
       <li>
@@ -405,12 +399,6 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy alkohol będzie miał wpływ na Larsa, chociażby w postaci efektu na ekranie?</a>
-        <div class="cd-faq-content">
-          <p>Tak, będzie się nawet pojawiać nowa, dedykowana animacja.</p>
-        </div>
-      </li>
-      <li>
         <a class="cd-faq-trigger" href="#0">Czy w modyfikacji pojawi się bagienne ziele?</a>
         <div class="cd-faq-content">
           <p>Tak, ale tylko w formie rośliny do użytku alchemicznego. Nie będzie można z niego przygotowywać skrętów. Do palenia dostępny będzie za to zwykły tytoń.</p>
@@ -431,21 +419,9 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy w modyfikacji pojawi się muzyczny easter egg (jak np. występ In Extremo z pierwszej części gry)?</a>
-        <div class="cd-faq-content">
-          <p>Nie pojawi się występ In Extremo, ale przygotowujemy kilka innych muzycznych easter eggów. </p>
-        </div>
-      </li>
-      <li>
         <a class="cd-faq-trigger" href="#0">Czy w modzie pojawią się kamienie ogniskujące?</a>
         <div class="cd-faq-content">
           <p>Tak, ale nie chcemy zdradzać szczegółów na ten temat.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy pojawią się Łowcy Demonów?</a>
-        <div class="cd-faq-content">
-          <p>Tak, ale tylko jako ciekawostka.</p>
         </div>
       </li>
       <li>
@@ -455,7 +431,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy usłyszymy w grze stary soundtrack z Gothica? </a>
+        <a class="cd-faq-trigger" href="#0">Czy usłyszymy w grze stary soundtrack z Gothica?</a>
         <div class="cd-faq-content">
           <p>Tak, pojawią się zarówno stare, kultowe utwory z pierwszych dwóch części serii Gtohic, ale będą też zupełnie nowe stworzone dla Dziejów Khorinis przez naszych muzyków. </p>
         </div>
@@ -467,13 +443,13 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy pojawią się legendarne teksty typu "Czy to coś z przodu twojej głowy to twarz czy ****?"</a>
+        <a class="cd-faq-trigger" href="#0">Czy pojawią się legendarne teksty typu "Czy to coś z przodu twojej głowy to twarz czy dupa?"</a>
         <div class="cd-faq-content">
           <p>Tak, ale pojawi się tylko kilka takich nawiązań.</p>
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy podczas rozgrywki będą jakieś cutscenki? Czy pojawią się animowane intra?</a>
+        <a class="cd-faq-trigger" href="#0">Czy podczas rozgrywki będą jakieś cutscenki? Czy pojawią się renderowane filmiki?</a>
         <div class="cd-faq-content">
           <p>Pojawią się obie te rzeczy.</p>
         </div>
@@ -485,7 +461,7 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Pojawi się możliwość wpływania na wygląd bohatera? Zmiana fryzury, tatuaż, itp? </a>
+        <a class="cd-faq-trigger" href="#0">Czy pojawi się możliwość wpływania na wygląd bohatera? Zmiana fryzury, tatuaż, itp? </a>
         <div class="cd-faq-content">
           <p>Nie, ponieważ uważamy to za niepotrzebne i niepasujące do charakteru modyfikacji.</p>
         </div>
@@ -505,11 +481,11 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy pojawią się trialogi (rozmowy więcej niż dwóch postaci)?</a>
         <div class="cd-faq-content">
-          <p>Tak, pojawią się sytuacje, w których będą ze sobą rozmawiać więcej niż dwie postacie.</p>
+          <p>Tak, pojawią się sytuacje, w których będą ze sobą rozmawiać więcej niż dwie lub trzy postacie.</p>
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy w grze pojawi się funkcja rzucania przedmiotami? </a>
+        <a class="cd-faq-trigger" href="#0">Czy w grze pojawi się funkcja rzucania przedmiotami?</a>
         <div class="cd-faq-content">
           <p>Nie – uznaliśmy tę funkcję za zbędną. </p>
         </div>
@@ -539,15 +515,9 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy silnik pozwala na umieszczenie modeli o wyższej jakości niż oryginalna?</a>
+        <a class="cd-faq-trigger" href="#0">Czy pojawi się wsparcie dla innych systemów?</a>
         <div class="cd-faq-content">
-          <p>Jest taka możliwość, jednak ze względu na ograniczenia silnika ZenGin korzystamy z tego ostrożnie, biorąc poprawkę na aspekty optymalizacyjne.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy pojawi się wsparcie dla Linuxa?</a>
-        <div class="cd-faq-content">
-          <p>Planowane jest wsparcie dla systemu Linux oraz możliwość uruchamiania Gothica II i Dziejów Khorinis w trybie natywnym.</p>
+          <p>Planowane jest wsparcie m.in. dla systemu Linux oraz możliwość uruchamiania Dziejów Khorinis w trybie natywnym.</p>
         </div>
       </li>
     </ul>
