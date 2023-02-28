@@ -189,13 +189,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy spotkamy postacie znane z Gothic i Gothic II na Vaduz? </a>
         <div class="cd-faq-content">
-          <p>Tak, ale poza 12 magami, będą to tylko 2 inne osoby.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy pojawi się postać na wzór Wrzoda?</a>
-        <div class="cd-faq-content">
-          <p>Nie, ale pojawią się inne postacie – w tym takie, o równie ciekawej osobowości.</p>
+          <p>Poza dwunastoma magami, planujemy pojawienie się paru postaci pobocznych z gier.</p>
         </div>
       </li>
       <li>
@@ -235,15 +229,15 @@ module.exports = {
         </div>
       </li>
       <li>
-        <a class="cd-faq-trigger" href="#0">Czy pojawią się goblińscy szamani?</a>
+        <a class="cd-faq-trigger" href="#0">Czy zostanie rozwinięta kultura goblinów?</a>
         <div class="cd-faq-content">
-          <p>Tak, pojawią się, ale w zupełnie nowej odsłonie.</p>
+          <p>Tak, przykładem tego są między innymi goblińscy szamani.</p>
         </div>
       </li>
       <li>
         <a class="cd-faq-trigger" href="#0">Czy będą wszystkie rodzaje roślin z Gothic i Gothic II?</a>
         <div class="cd-faq-content">
-          <p>Będą te z G2NK poszerzone o nowe modele. </p>
+          <p>W modzie pojawią się rośliny występujące w Gothic II: Noc Kruka, a także nowe, z oryginalnymi modelami, istniejące tylko we florze Vaduz.</p>
         </div>
       </li>
       <li>
@@ -256,12 +250,6 @@ module.exports = {
         <a class="cd-faq-trigger" href="#0">Czy w modyfikacji pojawią się lochy pełne nieumarłych?</a>
         <div class="cd-faq-content">
           <p>Tak, pojawią się takie miejsca.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy na Vaduz będzie zamtuz?</a>
-        <div class="cd-faq-content">
-          <p>Tak, na Vaduz będzie jeden budynek pełniący identyczną funkcję, jaką pełniła słynna Czerwona Latarnia w Khorinis.</p>
         </div>
       </li>
     </ul>
@@ -482,12 +470,6 @@ module.exports = {
         <a class="cd-faq-trigger" href="#0">Czy pojawią się trialogi (rozmowy więcej niż dwóch postaci)?</a>
         <div class="cd-faq-content">
           <p>Tak, pojawią się sytuacje, w których będą ze sobą rozmawiać więcej niż dwie lub trzy postacie.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy w grze pojawi się funkcja rzucania przedmiotami?</a>
-        <div class="cd-faq-content">
-          <p>Nie – uznaliśmy tę funkcję za zbędną. </p>
         </div>
       </li>
       <li>
