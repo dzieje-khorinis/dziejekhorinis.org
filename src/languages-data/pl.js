@@ -121,13 +121,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0">Czy dodatek będzie płatny/darmowy?</a>
         <div class="cd-faq-content">
-          <p>Będzie w pełni darmowy i dostępny do pobrania z naszej strony internetowej.</p>
-        </div>
-      </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy aby zagrać potrzebuję podstawki Gothica 2?</a>
-        <div class="cd-faq-content">
-          <p>Tak, do instalacji wymagane będzie posiadanie pełnej wersji gry Gothic II wraz z dodatkiem Noc Kruka.</p>
+          <p>Do zainstalowania dodatku wymagane jest posiadanie pełnej wersji gry Gothic II: Noc Kruka. Sama modyfikacja będzie w pełni darmowa.</p>
         </div>
       </li>
       <li>
