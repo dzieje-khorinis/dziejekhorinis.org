@@ -240,12 +240,6 @@ module.exports = {
           <p>Tak, pojawią się dwie duże kopalnie i kilka pomniejszych lokacji, natomiast będą one integralnymi częściami świata (czyli nie będą pojawiać się przy wejściu do nich ekrany ładowania).</p>
         </div>
       </li>
-      <li>
-        <a class="cd-faq-trigger" href="#0">Czy w modyfikacji pojawią się lochy pełne nieumarłych?</a>
-        <div class="cd-faq-content">
-          <p>Tak, pojawią się takie miejsca.</p>
-        </div>
-      </li>
     </ul>
     <ul id="gameplay" class="cd-faq-group"> <li class="cd-faq-title"><h2>Rozgrywka </h2></li>
       <li>
