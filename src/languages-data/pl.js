@@ -55,7 +55,7 @@ module.exports = {
       <li>
         <a class="cd-faq-trigger" href="#0"> Kiedy premiera?  </a>
         <div class="cd-faq-content">
-          <p>Z powodu epidemii COVID-19 i zablokowania nam sesji nagraniowych dubbingu i muzyki (oraz innych problemów w naszym zespole spowodowanych stanem pandemii) termin premiery został zawieszony aż do unormowania sytuacji. O sytuacji informujemy na bieżąco w naszych mediach społecznościowych, do których śledzenia zachęcamy.</p>
+          <p>Nie jesteśmy w stanie określić, kiedy będzie miała miejsce premiera modyfikacji Dzieje Khorinis. Jednocześnie nie chcemy tego robić, starając się na pierwszym miejscu postawić na jakość przygotowywanego moda. Śledzących naszą działalność fanów pragniemy poinformować, że projekt cały czas jest rozwijany. Prosimy o cierpliwość, jak i dziękujemy za tę dotychczas okazaną.</p>
         </div>
       </li>
       <li>
