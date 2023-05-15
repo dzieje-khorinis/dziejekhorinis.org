@@ -162,7 +162,13 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
 
   return (
     <Layout header={header}>
-      <SEO image={`${seo.domain}/index-files/g2_dk_artwork_3.jpg`} lang={seo.lang} title={seo.recruitmentTitle} description={seo.description} />
+      <SEO title="404 - Not Found" />
+      <IntroSection artwork={artwork} text={'404'} big={true} />
+      <div className="borderline" />
+      <Videos images={footerImages} />
+      <div className="borderline" />
+      <Footer />
+      {/* <SEO image={`${seo.domain}/index-files/g2_dk_artwork_3.jpg`} lang={seo.lang} title={seo.recruitmentTitle} description={seo.description} />
       <IntroSection artwork={artwork} imageSRC={logo} text={header.recruitmentLabel} big={true} />
       <div className="borderline" />
       <div id={'videocont'} className={'recruitment-container'}>
@@ -192,7 +198,7 @@ const Recruitment = ({pathContext: { lang, teamSoulfireLabel, logo, footerTitle,
       <div className="borderline" />
       <Videos images={footerImages} title={videoProductionHeadline} lang={lang} />
       <div className="borderline"></div>
-      <Footer logo={logo} title={footerTitle} bottomTitle={footerBottomTitle} lang={lang} />
+      <Footer logo={logo} title={footerTitle} bottomTitle={footerBottomTitle} lang={lang} /> */}
     </Layout>
   );
 }

@@ -33,7 +33,7 @@ const Header = ({ informationsLabel, recruitmentLabel, videosLabel, teamLabel, s
             <a className="feature" href="#" target="_self" id="menulogo">History Of Khorinis</a>
             <a className={`feature`} href={(lang === 'en' || lang === 'pl') ? `/#infosection` : `/${lang}/#infosection`} target="_self">{informationsLabel}</a>
             <a className={`feature ${path === '/faq' && 'active'}`} href={(lang === 'en' || lang === 'pl') ? `/faq` : `/${lang}/faq`} target="_self">{lang === 'ru' ? 'ЧАВО' : 'FAQ'}</a>
-            <a className={`feature ${path === '/recruitment' && 'active'}`} href={(lang === 'en' || lang === 'pl') ? `/recruitment` : `/${lang}/recruitment`}>{recruitmentLabel}</a>
+            {/* <a className={`feature ${path === '/recruitment' && 'active'}`} href={(lang === 'en' || lang === 'pl') ? `/recruitment` : `/${lang}/recruitment`}>{recruitmentLabel}</a> */}
             <a className="feature" href="https://youtube.com/c/dziejekhorinis" target="_blank">{videosLabel}</a>
             {/*<a className={`feature ${path === '/team' && 'active'}`} href={(lang === 'en' || lang === 'pl') ? `/team` : `/${lang}/team`} target="_self">{teamLabel}</a>*/}
             <a className="feature" href="https://youtube.com/c/dziejekhorinis/join" target="_blank">{supportLabel}</a>
