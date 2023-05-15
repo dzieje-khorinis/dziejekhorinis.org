@@ -36,7 +36,7 @@ const Header = ({ informationsLabel, recruitmentLabel, videosLabel, teamLabel, s
             {/* <a className={`feature ${path === '/recruitment' && 'active'}`} href={(lang === 'en' || lang === 'pl') ? `/recruitment` : `/${lang}/recruitment`}>{recruitmentLabel}</a> */}
             <a className="feature" href="https://youtube.com/c/dziejekhorinis" target="_blank">{videosLabel}</a>
             {/*<a className={`feature ${path === '/team' && 'active'}`} href={(lang === 'en' || lang === 'pl') ? `/team` : `/${lang}/team`} target="_self">{teamLabel}</a>*/}
-            <a className="feature" href="https://youtube.com/c/dziejekhorinis/join" target="_blank">{supportLabel}</a>
+            {/* <a className="feature" href="https://youtube.com/c/dziejekhorinis/join" target="_blank">{supportLabel}</a> */}
             <div className="dropdown">
               <button className="dropbtn">
                 <img src={`/index-files/big-icon-language-${lang}.png`} className="dropbtn-flag" />
